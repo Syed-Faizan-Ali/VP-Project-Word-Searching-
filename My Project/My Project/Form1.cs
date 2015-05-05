@@ -50,14 +50,41 @@ namespace My_Project
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void btnSearch_Click(object sender, EventArgs e)
         {
+            txtData.SelectAll();
+            txtData.SelectionBackColor = Color.White;
 
-        }
+            if (rbLinearSearch.Checked)
+            {
+                int index = 0;
+                string data = txtData.Text;
+                string[] words = data.Split();
+                foreach (string word in words)
+                {
+                    if (word == txtSearchText.Text)
+                    {
+                        txtData.Find(txtSearchText.Text, index, txtData.TextLength, RichTextBoxFinds.None);
+                        txtData.SelectionBackColor = Color.Yellow;
+                        index = txtData.Text.IndexOf(txtSearchText.Text, index) + 1;
+                    }
+                }
+            }
 
-        private void txtData_TextChanged(object sender, EventArgs e)
-        {
+            if (rbBinarySearch.Checked)
+            {
+                int index = 0;
+                string data = txtData.Text;
+                string[] words = data.Split();
+                int ind = Array.BinarySearch(words, txtSearchText.Text);
+                {
+                    txtData.Find(txtSearchText.Text, index, txtData.TextLength, RichTextBoxFinds.None);
+                    txtData.SelectionBackColor = Color.Yellow;
+                    index = txtData.Text.IndexOf(txtSearchText.Text, index) + 1;
+                }
 
+            }
         }
     }
 }

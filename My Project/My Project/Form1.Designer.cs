@@ -34,8 +34,8 @@
             this.rbBinarySearch = new System.Windows.Forms.RadioButton();
             this.rbLinearSearch = new System.Windows.Forms.RadioButton();
             this.btnBrowse = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txtSearchResult = new System.Windows.Forms.TextBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.txtSearchText = new System.Windows.Forms.TextBox();
             this.txtData = new System.Windows.Forms.RichTextBox();
             this.txtFileName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -46,10 +46,10 @@
             this.radioButton5.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton5.Location = new System.Drawing.Point(509, 253);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(85, 17);
+            this.radioButton5.Size = new System.Drawing.Size(43, 17);
             this.radioButton5.TabIndex = 19;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
+            this.radioButton5.Text = "rb 5";
             this.radioButton5.UseVisualStyleBackColor = false;
             // 
             // radioButton4
@@ -58,10 +58,10 @@
             this.radioButton4.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton4.Location = new System.Drawing.Point(509, 214);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(109, 17);
+            this.radioButton4.Size = new System.Drawing.Size(101, 17);
             this.radioButton4.TabIndex = 18;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "ANOTHER TYPE";
+            this.radioButton4.Text = "JUMP SEARCH";
             this.radioButton4.UseVisualStyleBackColor = false;
             // 
             // radioButton3
@@ -70,10 +70,10 @@
             this.radioButton3.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton3.Location = new System.Drawing.Point(509, 179);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(94, 17);
+            this.radioButton3.Size = new System.Drawing.Size(112, 17);
             this.radioButton3.TabIndex = 17;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "3RD SEARCH";
+            this.radioButton3.Text = "INTERPOLATION";
             this.radioButton3.UseVisualStyleBackColor = false;
             // 
             // rbBinarySearch
@@ -111,24 +111,24 @@
             this.btnBrowse.UseVisualStyleBackColor = false;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
-            // button1
+            // btnSearch
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button1.Location = new System.Drawing.Point(365, 352);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSearch.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnSearch.Location = new System.Drawing.Point(365, 352);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 13;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // txtSearchResult
+            // txtSearchText
             // 
-            this.txtSearchResult.BackColor = System.Drawing.Color.White;
-            this.txtSearchResult.Location = new System.Drawing.Point(77, 355);
-            this.txtSearchResult.Name = "txtSearchResult";
-            this.txtSearchResult.Size = new System.Drawing.Size(272, 20);
-            this.txtSearchResult.TabIndex = 12;
+            this.txtSearchText.BackColor = System.Drawing.Color.White;
+            this.txtSearchText.Location = new System.Drawing.Point(77, 355);
+            this.txtSearchText.Name = "txtSearchText";
+            this.txtSearchText.Size = new System.Drawing.Size(272, 20);
+            this.txtSearchText.TabIndex = 12;
             // 
             // txtData
             // 
@@ -139,7 +139,6 @@
             this.txtData.Size = new System.Drawing.Size(435, 246);
             this.txtData.TabIndex = 11;
             this.txtData.Text = "";
-            this.txtData.TextChanged += new System.EventHandler(this.txtData_TextChanged);
             // 
             // txtFileName
             // 
@@ -161,8 +160,8 @@
             this.Controls.Add(this.rbBinarySearch);
             this.Controls.Add(this.rbLinearSearch);
             this.Controls.Add(this.btnBrowse);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtSearchResult);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtSearchText);
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.txtFileName);
             this.Name = "Form1";
@@ -180,8 +179,8 @@
         private System.Windows.Forms.RadioButton rbBinarySearch;
         private System.Windows.Forms.RadioButton rbLinearSearch;
         private System.Windows.Forms.Button btnBrowse;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtSearchResult;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.TextBox txtSearchText;
         private System.Windows.Forms.RichTextBox txtData;
         private System.Windows.Forms.TextBox txtFileName;
     }
