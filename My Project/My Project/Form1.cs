@@ -54,5 +54,10 @@ namespace My_Project
         {
 
         }
+
+        private void txtData_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

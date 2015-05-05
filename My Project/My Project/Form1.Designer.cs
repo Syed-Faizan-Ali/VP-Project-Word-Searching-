@@ -139,6 +139,7 @@
             this.txtData.Size = new System.Drawing.Size(435, 246);
             this.txtData.TabIndex = 11;
             this.txtData.Text = "";
+            this.txtData.TextChanged += new System.EventHandler(this.txtData_TextChanged);
             // 
             // txtFileName
             // 

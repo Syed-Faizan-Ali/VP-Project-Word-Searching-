@@ -1,9 +1,8 @@
 C:\Users\user\Desktop\C#\My Project\My Project\bin\Debug\My Project.exe
 C:\Users\user\Desktop\C#\My Project\My Project\bin\Debug\My Project.pdb
-C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My_Project.Form1.resources
 C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My_Project.Properties.Resources.resources
-C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.exe
 C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.pdb
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.csproj.GenerateResource.Cache
