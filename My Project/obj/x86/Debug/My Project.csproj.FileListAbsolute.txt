@@ -1,0 +1,26 @@
+C:\Users\user\Desktop\C#\My Project\My Project\bin\Debug\My Project.exe
+C:\Users\user\Desktop\C#\My Project\My Project\bin\Debug\My Project.pdb
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My_Project.Form1.resources
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My_Project.Properties.Resources.resources
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.exe
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.pdb
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\C#\My Project\My Project\obj\x86\Debug\My Project.csproj.GenerateResource.Cache
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My Project.exe
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My Project.pdb
+C:\Users\Dell\Desktop\faizan\bin\Debug\My Project.exe
+C:\Users\Dell\Desktop\faizan\bin\Debug\My Project.pdb
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My Project.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My_Project.Form1.resources
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My_Project.Properties.Resources.resources
+C:\Users\Dell\Desktop\faizan\obj\x86\Debug\My Project.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My Project.exe
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My Project.pdb
+C:\Users\user\Downloads\faizan\bin\Debug\My Project.exe
+C:\Users\user\Downloads\faizan\bin\Debug\My Project.pdb
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My Project.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My_Project.Form1.resources
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My_Project.Properties.Resources.resources
+C:\Users\user\Downloads\faizan\obj\x86\Debug\My Project.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\C#\My Project\obj\x86\Debug\My Project.exe
+C:\Users\user\Desktop\C#\My Project\obj\x86\Debug\My Project.pdb

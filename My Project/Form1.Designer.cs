@@ -46,11 +46,12 @@
             this.radioButton5.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton5.Location = new System.Drawing.Point(509, 253);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(43, 17);
+            this.radioButton5.Size = new System.Drawing.Size(111, 17);
             this.radioButton5.TabIndex = 19;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "rb 5";
+            this.radioButton5.Text = "iNTERPOLATION";
             this.radioButton5.UseVisualStyleBackColor = false;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -58,11 +59,12 @@
             this.radioButton4.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton4.Location = new System.Drawing.Point(509, 214);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(101, 17);
+            this.radioButton4.Size = new System.Drawing.Size(140, 17);
             this.radioButton4.TabIndex = 18;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "JUMP SEARCH";
+            this.radioButton4.Text = "RABIN CARP  SEARCH";
             this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -70,11 +72,12 @@
             this.radioButton3.BackColor = System.Drawing.Color.Turquoise;
             this.radioButton3.Location = new System.Drawing.Point(509, 179);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(112, 17);
+            this.radioButton3.Size = new System.Drawing.Size(95, 17);
             this.radioButton3.TabIndex = 17;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "INTERPOLATION";
+            this.radioButton3.Text = "KMP SEARCH";
             this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // rbBinarySearch
             // 
@@ -87,6 +90,7 @@
             this.rbBinarySearch.TabStop = true;
             this.rbBinarySearch.Text = "BINARY SEARCH";
             this.rbBinarySearch.UseVisualStyleBackColor = false;
+            this.rbBinarySearch.CheckedChanged += new System.EventHandler(this.rbBinarySearch_CheckedChanged);
             // 
             // rbLinearSearch
             // 
@@ -99,6 +103,7 @@
             this.rbLinearSearch.TabStop = true;
             this.rbLinearSearch.Text = "LINEAR SEARCH";
             this.rbLinearSearch.UseVisualStyleBackColor = false;
+            this.rbLinearSearch.CheckedChanged += new System.EventHandler(this.rbLinearSearch_CheckedChanged);
             // 
             // btnBrowse
             // 
@@ -153,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 404);
+            this.ClientSize = new System.Drawing.Size(704, 455);
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -166,6 +171,7 @@
             this.Controls.Add(this.txtFileName);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
